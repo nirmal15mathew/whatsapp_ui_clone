@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="libs/vue.js"></script>
+  <meta name="theme-color" content="#093A34">
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="libs/fontawesome.min.css">
+</head>
+
+<body>
+  <div id="app">
+    <main-chat-section :active-chats="filteredChats" @search-term="searchHandler"></main-chat-section>
+    <floating-action-button class="floating-action-button" :click-event="addChat">
+       <span class="material-icons">
+         insert_comment
+       </span>
+     </floating-action-button>
+  </div>
+  <!-- Project -->
+  <script src="src/main.js" type="module"></script>
+</body>
+</html>
