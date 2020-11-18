@@ -1,8 +1,8 @@
 import Vue from './lib/vue.js'
 import Store from './Store.js'
 import all from './Modules.js'
-import MainChatSection from './Components/MainChatSection.js'
-import FloatingActionButton from './Components/FloatingActionButton.js'
+import MainChatSection from './components/MainChatSection.js'
+import FloatingActionButton from './components/FloatingActionButton.js'
 import ChatWindowComponent from './components/ChatWindowComponent.js'
 
 var randomName = all.randomName;
