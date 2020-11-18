@@ -15,7 +15,7 @@ Store.setMutations('add-chat', function(newChat){
   Store.state.activeChats.push(newChat)
 })
 Store.setState('active-chat', '')
-
+alert('Test')
 //Instance of vue
 var app = new Vue({
   el: '#app',
